@@ -30,7 +30,7 @@ jobs:
     steps:
       - name: Set UUID
         id: generate-uuid
-        uses: filipstefansson/uuid-action@v1
+        uses: felfert/uuid-action@v1
         with:
           name: ${{ github.sha }}
       # use the output from the `generate-uuid` step
