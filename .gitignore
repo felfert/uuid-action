@@ -8,6 +8,8 @@ yarn-error.log*
 # dependency files and directories
 node_modules/
 .npm
+package-lock.json
+dist/index.js.map
 
 # dotenv environment variables file
 .env
